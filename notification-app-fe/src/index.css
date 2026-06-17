@@ -1,0 +1,16 @@
+/* Basic app-level styles to ensure visible content */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: #f4f6f9;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Make sure MUI elements inherit sensible box-sizing */
+*, *::before, *::after { box-sizing: border-box; }
+
+.app-fallback {
+  padding: 32px;
+  text-align: center;
+  color: #334155;
+}
